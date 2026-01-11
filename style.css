@@ -60,7 +60,7 @@ body {
   height: 240px;
   border-radius: 50%;
   background: #ffffff;
-  padding: 8px;
+  padding: 20px;
   box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
   overflow: hidden;
 }
@@ -159,6 +159,7 @@ footer {
     padding: 140px 8% 60px;
   }
 }
+
 
 
 
