@@ -50,7 +50,7 @@ section {
 .about-container {
   display: flex;
   gap: 2rem;
-  align-items: center;
+  align-items: justify;
 }
 
 .profile-img {
@@ -266,5 +266,6 @@ footer {
     padding: 120px 8% 60px;
   }
 }
+
 
 
