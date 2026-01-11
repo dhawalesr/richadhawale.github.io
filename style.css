@@ -51,7 +51,7 @@ body {
 /* AVATAR */
 .hero-avatar {
   perspective: 1000px;
-  position: absolute;
+  position: center;
   left: 50%;
   bottom: -110px;
   transform: translateX(-50%);
@@ -158,4 +158,5 @@ footer {
     padding: 140px 8% 60px;
   }
 }
+
 
