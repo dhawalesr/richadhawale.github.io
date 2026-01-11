@@ -51,6 +51,7 @@ body {
 /* AVATAR */
 .hero-avatar {
   perspective: 1000px;
+  z-index: 1;
   position: center;
   left: 50%;
   bottom: -110px;
@@ -58,9 +59,9 @@ body {
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background: white;
+  background: #ffffff;
   padding: 8px;
-  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.18);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
   overflow: hidden;
 }
 
@@ -158,5 +159,6 @@ footer {
     padding: 140px 8% 60px;
   }
 }
+
 
 
