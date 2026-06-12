@@ -166,7 +166,20 @@ img {
   font-weight: 750;
   line-height: 1.45;
 }
+.hero-role {
+  color: var(--accent-dark);
+  font-weight: 850;
+  font-size: 1em;
+}
 
+.hero-affiliation {
+  display: inline-block;
+  margin-top: 0.35rem;
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 0.82em;
+  line-height: 1.45;
+}
 
 .hero-summary {
   max-width: 680px;
