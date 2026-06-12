@@ -381,6 +381,21 @@ img {
   border-top: 1px solid var(--line);
 }
 
+.project-sublist {
+  margin: 0.75rem 0 0;
+  padding-left: 1.2rem;
+  color: var(--muted);
+}
+
+.project-sublist li {
+  margin: 0.65rem 0;
+}
+
+.project-sublist strong {
+  color: var(--ink);
+  font-weight: 850;
+}
+
 .timeline-item:last-child {
   border-bottom: 1px solid var(--line);
 }
@@ -542,6 +557,10 @@ img {
   .portrait-card {
     min-height: 330px;
   }
+  .education-item {
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
 }
 .education-item {
   grid-template-columns: 1fr;
@@ -567,45 +586,55 @@ img {
 .education-item {
   display: grid;
   grid-template-columns: 150px minmax(0, 1fr);
-  gap: 1.5rem;
-  padding: 1.4rem;
+  gap: 2rem;
+  padding: 1.45rem;
   background: rgba(255, 255, 255, 0.82);
   border: 1px solid var(--line);
   border-radius: var(--radius);
   box-shadow: 0 12px 35px rgba(16, 32, 31, 0.055);
 }
 
-.education-year {
+.education-meta p {
+  margin: 0;
+  color: var(--ink);
+  font-weight: 800;
+}
+
+.education-meta span {
+  display: block;
+  margin-top: 0.2rem;
   color: var(--accent-dark);
   font-weight: 850;
 }
 
-.education-content h3 {
+.education-details h3 {
   margin: 0;
+  color: var(--ink);
   line-height: 1.25;
 }
 
-.education-degree {
-  margin: 0.3rem 0 0;
+.education-field {
+  margin: 0.35rem 0 0;
   color: var(--ink);
-  font-weight: 750;
+  font-weight: 700;
 }
 
 .education-thesis {
-  margin: 0.3rem 0 0.85rem;
+  margin: 0.85rem 0 0.85rem;
   color: var(--muted);
 }
 
 .education-thesis strong {
   color: var(--accent-dark);
+  font-weight: 900;
 }
 
-.education-content ul {
+.education-details ul {
   margin: 0;
-  padding-left: 1.15rem;
+  padding-left: 1.2rem;
   color: var(--muted);
 }
 
-.education-content li {
+.education-details li {
   margin: 0.45rem 0;
 }
